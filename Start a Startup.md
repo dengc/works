@@ -8,6 +8,16 @@
 
 ## The Foundations
 
+#### 基本路线
+Idea --> Product --> Team --> Execution
+
+#### Love > Like
+创业初期，做出一个少数人都特别喜爱的产品要好于多数人喜欢一点但没那么喜爱的产品。因为去做“把喜爱的人数增多”这件事要比“让那些已经喜欢一点的人喜爱更多”这件事要简单。
+<br>
+**Make a product that a few people love a lot > Make a product that a lot of people like a bit.**
+
+#### Try not to hire at first
+
 
 ## End
 闲暇时光，随意写写，空有理论，分享而已~ 真正理解，还需实战，正如“在战争中学习战争，在游泳中学习游泳”，还是要在创业中学习创业。
