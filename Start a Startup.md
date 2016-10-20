@@ -5,6 +5,7 @@
 
 > 仅仅提取了一些干货以及我之前不太懂而现在理解深刻的框架和内容。并无实例。。
 
+<img src="Startup1.jpeg"  alt="Stanford"  />
 
 ## The Foundations
 
