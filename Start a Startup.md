@@ -11,23 +11,26 @@
 #### Basic Line
 Idea --> Product --> Team --> Execution
 
+#### Perception
+- **Team** -- 初创时的团队很重要，主要是合伙人！不要单打独斗。
+- **Location** -- 所谓“地段，地段，还是地段”！构建Network的基础。
+- **Contrarian** -- 警觉，多思考，不盲目顺从
+
 #### Love > Like
 创业初期，做出一个少数人都特别喜爱的产品要好于多数人喜欢一点但没那么喜爱的产品。因为去做“把喜爱的人数增多”这件事要比“让那些已经喜欢一点的人喜爱更多”这件事要简单。
 <br>
 **Make a product that a few people love a lot > Make a product that a lot of people like a bit.**
 
 #### Cofounder
-1-2个合伙人为最佳。Don't be alone, and don't be a lot.
+- 1-2个合伙人为最佳。Don't be alone, and don't be a lot.
 <br>
-要彼此熟知，最好是知根知底。The people you know and trust!
+- 要彼此熟知，最好是知根知底。The people you know and trust!
 
 #### Try not to hire at first
 在创业初期不要盲目招人，先专注于产品和市场用户需求。过早（时间因公司而异）招人多半只会导致浪费精力和金钱招到只寻图利益而并不全身心投入到公司发展的员工。（Airbnb起初一整年只招了两个员工）
 
 #### 0-25% time Hiring
 公司大体成型后，创始人也不要花太多时间在招员工上。
-
-#### Perception：Team, Location, Contrarian.
 
 #### Do both!
 - Work & Delegate
