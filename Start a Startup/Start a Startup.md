@@ -49,6 +49,19 @@ Idea --> Product --> Team --> Execution
 - Focus on Long Term & Short Term
 
 #### 2B VS. 2C
+<img src="Startup2.jpeg"  alt="Stanford"  />
+
+
+## Getting Started
+
+#### Users
+用户扩展递进：
+自己 -> 亲属朋友同事 -> 网络社交平台 -> 当地社区 -> 推销电话/邮件 -> 媒体
+
+#### 3 Growths
+- Sticky Growth: Return! 使顾客用过后会回来继续使用或购买产品，顾客数量稳定持续增长。
+- Viral Growth: Referral! 使顾客用过后推荐给他们的朋友，顾客数量快速增长。
+- Paid Growth: Ads! 花钱在商业推广上，让更多的人了解产品。
 
 ## -End
 闲暇时光，随意写写，空有理论，分享而已~ 真正理解，还需实战，正如“在战争中学习战争，在游泳中学习游泳”，还是要在创业中学习创业。
