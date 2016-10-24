@@ -22,6 +22,12 @@ Idea --> Product --> Team --> Execution
 <br>
 **Make a product that a few people love a lot > Make a product that a lot of people like a bit.**
 
+#### Start Small & Simple
+初期规模和产品要简约。
+
+#### Need > want
+尽量不要上来就做大众最终想要的东西，而是做顾客即刻需要的。
+
 #### Cofounder
 - 1-2个合伙人为最佳。Don't be alone, and don't be a lot.
 <br>
@@ -41,6 +47,8 @@ Idea --> Product --> Team --> Execution
 - Vision & Data
 - Take the Risk & Minimize the Risk
 - Focus on Long Term & Short Term
+
+#### 2B VS. 2C
 
 ## -End
 闲暇时光，随意写写，空有理论，分享而已~ 真正理解，还需实战，正如“在战争中学习战争，在游泳中学习游泳”，还是要在创业中学习创业。
