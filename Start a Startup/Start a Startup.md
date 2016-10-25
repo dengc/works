@@ -75,6 +75,7 @@ Idea --> Product --> Team --> Execution
 
 #### Tell a Nice Story
 <img src="Startup3.jpeg"  alt="Stanford"  />
+<br><br>
 <img src="Startup4.jpeg"  alt="Stanford"  />
 
 ## -End
