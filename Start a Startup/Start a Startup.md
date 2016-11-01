@@ -78,6 +78,13 @@ Idea --> Product --> Team --> Execution
 <br><br>
 <img src="Startup4.jpeg"  alt="Stanford"  />
 
+#### Culture
+一个企业的发展和招聘员工与他的企业文化紧密相连。文化的核心是，看企业在做什么，为什么怎么做，如何庆祝收货和成功。
+>Core: Honest, Integrity, Service, Teamwork, Value, Brand, Involved.
+
+####  legal & Accounting
+在法律和财政方面要注意！确保没有问题！
+
 ## -End
 闲暇时光，随意写写，空有理论，分享而已~ 真正理解，还需实战，正如“在战争中学习战争，在游泳中学习游泳”，还是要在创业中学习创业。
 
