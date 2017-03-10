@@ -2,29 +2,17 @@
 import java.util.*;
 public class Count_Say {
 
-	public static void main(String[] args) {
+	public String countAndSay(int n) {
 
-		Scanner in = new Scanner(System.in);
-
-		System.out.println("Put a number(n) to find the nth value: ");
-		int input = in.nextInt();
-
-		System.out.println("The nth value is " + find_n(input) );
-
-	}
-
-	public static String find_n(int n){
-
-		if(n == 1){
+        if(n == 1){
 			return "1";
 		}
 		else{
-			return count_say(find_n(n-1));
+			return count_say(countAndSay(n-1));
 		}
+    }
 
-	}
-
-	public static String count_say(String s){
+    public String count_say(String s){
 
 		int count=1;
 		String output ="";

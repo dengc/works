@@ -2,18 +2,8 @@
 import java.util.*;
 public class Valid_Parentheses {
 
-	public static void main(String[] args) {
+	public boolean isValid(String s) {
 
-		Scanner in = new Scanner(System.in);
-
-		System.out.println("Put a group of parentheses to see if it is valid: ");
-		String input = in.next();
-
-		System.out.println("The validation is: " + valid_parentheses(input));
-
-	}
-
-	public static String valid_parentheses(String s){
 
 		ArrayList<Integer> pointer = new ArrayList<Integer>();
 
@@ -45,7 +35,7 @@ public class Valid_Parentheses {
 		int pSize = pointer.size();
 
 		if(pSize%2 ==1){
-			return "false";
+			return false;
 		}
 
 		while(count<pSize/2){
@@ -64,12 +54,11 @@ public class Valid_Parentheses {
 		}
 
 		if(pointer.size()==0){
-			return "true";
+			return true;
 		}
 		else{
-			return "false";
+			return false;
 		}
 
 	}
-
 }

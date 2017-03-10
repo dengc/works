@@ -2,49 +2,24 @@
 import java.util.*;
 public class Two_Sum {
 
-	public static void main(String[] args) {
+	public int[] twoSum(int[] nums, int target) {
 
-		int[] nums = {6,20,25,9,7,66,2,19,93,4,27,11,26};
+		int[] result = new int[2];
 
-		Scanner in = new Scanner(System.in);
+		for(int i=0; i<nums.length; i++){
 
-		System.out.println("Put a sum which you want to find: ");
-		int input = in.nextInt();
+			for(int j=i+1; j<nums.length; j++){
 
-		find_two_indexes(nums,input);
-		//System.out.println("The two indexes are " + find_n(input) );
+				if(nums[j]==target-nums[i]){
 
-	}
+					result[0] =i;
+					result[1] =j;
 
-	public static void find_two_indexes(int[] intArray, int sum){
-
-		int a =0;
-		int b =0;
-		int temp;
-
-		for(int i=0; i<intArray.length; i++){
-
-			for(int j=i+1; j<intArray.length; j++){
-
-				if(intArray[j]==sum-intArray[i]){
-
-					a = intArray[i];
-					b = intArray[j];
 					break;
 				}
 			}
 		}
 
-		if(a>b){
-
-			temp=a;
-			a=b;
-			b=temp;
-		}
-
-		System.out.println("The two indexes are " + a + " and " + b );
-	}
-
-
-
+		return result;
+    }
 }
