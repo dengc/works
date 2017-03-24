@@ -108,6 +108,9 @@ public class Concord {
                 }
             }
         }
+
+        // ArrayList<Map.Entry<String, Integer>> newAL = new ArrayList(concord.entrySet());
+
     }
 
     // NOTE: printSatisfying only used in Ex. 3

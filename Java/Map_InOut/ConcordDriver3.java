@@ -15,46 +15,43 @@ import java.io.*;
 
 public class ConcordDriver3 {
 
-
     public static void main(String[] args) throws IOException{
 
 	int threshold = 0;
 
-	if (args.length > 0) {
-	    threshold = Integer.parseInt(args[0]);
-	}
+    String fileName = args[0];
+    File newF = new File(fileName);
+	Scanner in = new Scanner(newF);
 
+    threshold = Integer.parseInt(args[1]);
 
     Concord concord = new Concord();
-    File newF = new File("t1");
-    Scanner in = new Scanner(newF);
 
     concord.addData(in);
 
 	// add code here to print out the selected entries
-    concord.printSatisfying(System.out, new LargeWordPred(5));
-
+    concord.printSatisfying(System.out, new LargeWordPred(threshold));
 
     }
 
+
 }
 
-
 // add new class here
-// public class LargeWordPred implements Predicate{
-//
-//     public int threshold;
-//
-//     public LargeWordPred(int num) {
-//
-//         threshold = num;
-//     }
-//
-//     public boolean predicate(Map.Entry<String,Integer> item){
-//
-//         if(item.getKey().length()>=threshold){
-//             return true;
-//         }
-//         return false;
-//     }
-// }
+class LargeWordPred implements Predicate{
+
+    public int threshold;
+
+    public LargeWordPred(int num) {
+
+        threshold = num;
+    }
+
+    public boolean predicate(Map.Entry<String,Integer> item){
+
+        if(item.getKey().length()>=threshold){
+            return true;
+        }
+        return false;
+    }
+}
