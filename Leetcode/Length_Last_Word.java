@@ -14,17 +14,10 @@ public class Length_Last_Word {
 	}
 
 	public static int last_word(String s){
-
-		if(s.substring(s.length()-1,s.length()).equals(" ")){
-			return 0;
-		}
-
-		String[] words = s.split(" ");
-
-		int l = words[words.length-1].length();
-
-		return l;
+		String[] parts = s.split(" ");
+        if(parts.length > 0){
+            return parts[parts.length-1].length();
+        }
+        return 0;
 	}
-
-
 }

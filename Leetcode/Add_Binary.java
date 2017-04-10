@@ -16,65 +16,25 @@ public class Add_Binary {
 
 	}
 
-	public static String add_Binary(String a, String b){
-
-		int sum;
-		String sumString="";
-
-		int aLength = a.length();
-		int bLength = b.length();
-
-		int aNum=0;
-		int bNum=0;
-
-		for(int i=0; i<aLength; i++){
-
-			int pointer = Integer.parseInt(a.substring(aLength-1-i,aLength-i));
-			aNum += pointer * Math.pow(2,i);
+	public String addBinary(String a, String b) {
+		StringBuilder sb = new StringBuilder();
+		int la = a.length() - 1;
+		int lb = b.length() - 1;
+		int carry = 0;
+		while(la > -1 || lb > -1){
+			int sum = carry;
+			if(la > -1){
+				sum += a.charAt(la--) - '0';
+			}
+			if(lb > -1){
+				sum += b.charAt(lb--) - '0';
+			}
+			sb.append(sum % 2);
+			carry = sum/2;
 		}
-
-		for(int i=0; i<bLength; i++){
-
-			int pointer = Integer.parseInt(b.substring(bLength-1-i,bLength-i));
-			bNum += pointer * Math.pow(2,i);
+		if(carry != 0){
+			sb.append(carry);
 		}
-
-		sum = aNum + bNum;
-
-		ArrayList<Integer> index = new ArrayList<Integer>();
-
-		while(sum>0){
-
-			int i = (int) Math.floor(Math.log(sum)/Math.log(2));
-			index.add(i);
-			sum -= Math.pow(2,i);
-
-		}
-
-		//System.out.println(index);
-
-		ArrayList<String> sums = new ArrayList<String>();
-
-		for(int i=0;i<index.get(0)+1; i++){
-
-			sums.add("0");
-		}
-
-		for(int i=0; i<index.size(); i++){
-
-			sums.set((index.get(0)-index.get(i)),"1");
-		}
-
-		for(int i=0; i<sums.size(); i++){
-
-			sumString += sums.get(i);
-		}
-
-
-
-		return sumString;
-	}
-
-
-
+		return sb.reverse().toString();
+    }
 }
