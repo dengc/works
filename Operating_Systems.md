@@ -39,3 +39,10 @@ Upcall: OS call App
 
 Bus: a collection of signals (address in processor) who connect to each other
 
+Process Control Block (PCB) is a kernel data structure
+- has return code & PID
+- the "Link" field points to the next PCB
+
+run a program:
+- make a copy of a process
+- replace the child process with a new one
